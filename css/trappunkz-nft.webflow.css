@@ -141,15 +141,14 @@ p {
 
 .section {
   position: relative;
-  margin-right: 138px;
-  margin-left: 138px;
   padding: 80px 10px;
-  background-color: #fff;
+  background-color: #000;
   text-align: center;
 }
 
 .section.accent {
   margin-right: auto;
+  margin-bottom: -69px;
   margin-left: auto;
   background-color: #000;
 }
@@ -160,8 +159,9 @@ p {
 }
 
 .hero-section.centered {
+  margin-bottom: 99px;
   padding-top: 474px;
-  padding-bottom: 0px;
+  padding-bottom: 244px;
   border-bottom: 4px solid transparent;
   background-image: url('../images/bg.png');
   background-position: 50% 50%;
@@ -232,8 +232,8 @@ p {
 .section-heading.centered {
   display: inline;
   font-family: Digitag, sans-serif;
-  color: #ff0017;
-  font-size: 100px;
+  color: #f0f0f0;
+  font-size: 150px;
   font-weight: 300;
   text-align: center;
   letter-spacing: 5px;
@@ -334,8 +334,7 @@ p {
   overflow: visible;
   margin-top: 18px;
   margin-bottom: 95px;
-  padding-right: 305px;
-  padding-left: 305px;
+  color: #f0f0f0;
   font-size: 23px;
 }
 
@@ -396,7 +395,7 @@ p {
 .text-block-3 {
   margin-bottom: 15px;
   font-family: 'Stop bullying', sans-serif;
-  color: #192024;
+  color: #f0f0f0;
 }
 
 .heading-2 {
@@ -423,7 +422,7 @@ p {
 .text-block-4 {
   margin-bottom: 15px;
   font-family: 'Stop bullying', sans-serif;
-  color: #192024;
+  color: #f0f0f0;
 }
 
 .heading-5 {
@@ -436,7 +435,7 @@ p {
 .text-block-5 {
   margin-bottom: 15px;
   font-family: 'Stop bullying', sans-serif;
-  color: #192024;
+  color: #f0f0f0;
 }
 
 .heading-6 {
@@ -448,7 +447,7 @@ p {
 .text-block-6 {
   margin-bottom: 15px;
   font-family: 'Stop bullying', sans-serif;
-  color: #192024;
+  color: #f0f0f0;
 }
 
 .heading-7 {
@@ -460,7 +459,7 @@ p {
 .text-block-7 {
   margin-bottom: 15px;
   font-family: 'Stop bullying', sans-serif;
-  color: #192024;
+  color: #f0f0f0;
 }
 
 .heading-8 {
@@ -472,7 +471,7 @@ p {
 .text-block-8 {
   margin-bottom: 15px;
   font-family: 'Stop bullying', sans-serif;
-  color: #192024;
+  color: #f0f0f0;
 }
 
 .heading-9 {
@@ -484,7 +483,7 @@ p {
 .text-block-9 {
   margin-bottom: 15px;
   font-family: 'Stop bullying', sans-serif;
-  color: #192024;
+  color: #f0f0f0;
 }
 
 .heading-10 {
@@ -494,8 +493,9 @@ p {
 }
 
 .text-block-10 {
+  margin-bottom: -58px;
   font-family: 'Stop bullying', sans-serif;
-  color: #192024;
+  color: #f0f0f0;
 }
 
 .heading-11 {
@@ -588,10 +588,12 @@ p {
 
 .heading-18 {
   font-family: 'Stop bullying', sans-serif;
+  color: #ecf0f1;
 }
 
 .heading-19 {
   font-family: 'Stop bullying', sans-serif;
+  color: #ecf0f1;
 }
 
 .container {
@@ -689,6 +691,11 @@ p {
 @media screen and (max-width: 479px) {
   .button {
     margin-bottom: 25px;
+  }
+
+  .section {
+    margin-right: auto;
+    margin-left: auto;
   }
 
   .hero-section.centered {
